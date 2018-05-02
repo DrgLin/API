@@ -1,0 +1,237 @@
+@charset "UTF-8";
+* {
+  font-family: '微軟正黑體', sans-serif;
+}
+
+.header {
+  background: url(../images/Kaohsiung.jpg) center center;
+  background-size: cover;
+  width: 100%;
+  height: 380px;
+  overflow: hidden;
+  text-align: center;
+}
+
+.head h1 {
+  letter-spacing: 0.1em;
+  color: #fff;
+  margin-top: 89px;
+}
+
+.selectrow select {
+  width: 100%;
+  margin: 20px auto 0px auto;
+  display: inline-block;
+  font-size: 1.5em;
+  border-radius: 20px;
+  letter-spacing: 0.5em;
+  border: 3px solid #fff;
+  background-color: rgba(255, 255, 255, 0.7);
+}
+
+p .mybtn {
+  display: inline-block;
+  margin-bottom: 0;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.42857143;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -ms-touch-action: manipulation;
+  touch-action: manipulation;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background-image: none;
+  border: 1px solid transparent;
+  border-radius: 4px;
+}
+
+nav {
+  min-height: 112px;
+  background-color: white;
+  border-radius: 5px;
+  margin-top: -80px;
+  margin-bottom: 30px;
+  padding-bottom: 10px;
+}
+
+nav h2 {
+  margin-left: 20px;
+  padding-top: 20px;
+}
+
+nav ul {
+  width: 95%;
+  margin: 0 auto;
+  text-align: center;
+  padding: 0px;
+}
+
+nav ul li {
+  min-width: 22%;
+  border-radius: 5px;
+  text-align: center;
+  vertical-align: middle;
+  display: inline-block;
+  margin: 3% 1.3% 0% 1.3%;
+  color: #fff;
+}
+
+nav ul li:hover {
+  color: #000;
+}
+
+nav ul li:nth-child(1) {
+  background-color: #8A82CC;
+}
+
+nav ul li:nth-child(2) {
+  background-color: #FFA782;
+}
+
+nav ul li:nth-child(3) {
+  background-color: #F5D105;
+}
+
+nav ul li:nth-child(4) {
+  background-color: #559AC8;
+}
+
+.titArea {
+  border-top: 1px dashed #559AC8;
+  padding-top: 35px;
+  text-align: center;
+}
+
+.titArea .tit {
+  font-size: 2em;
+  font-weight: bold;
+  color: #8A82CC;
+  margin-top: 10px;
+  margin-bottom: 50px;
+  display: inline-block;
+}
+
+.titArea .tit em {
+  font-size: 0.8em;
+  line-height: 0.8em;
+}
+
+.titArea .icon {
+  background: url(../images/icons_down.png) no-repeat -20px center;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  border-left: 40px transparent solid;
+  -webkit-filter: drop-shadow(#559AC8 -20px 0);
+  filter: drop-shadow(#559AC8 -20px 0);
+}
+
+.titArea .outer {
+  width: 20px;
+  height: 20px;
+  position: relative;
+  overflow: hidden;
+  margin: -47px auto 0px auto;
+  border: 2px solid #559AC8;
+  border-radius: 100px;
+  background: #Fff;
+}
+
+.item .thumbnail {
+  border: 0;
+  -webkit-box-shadow: 1px 2px 5px #ccc;
+  box-shadow: 1px 2px 5px #ccc;
+}
+
+.item h3,
+.item h4 {
+  font-weight: bold;
+  color: #fff;
+  position: absolute;
+  z-index: 2;
+  margin-top: -50px;
+  display: inline-block;
+}
+
+.item h3 {
+  text-align: left;
+  left: 30px;
+}
+
+.item h4 {
+  text-align: right;
+  right: 30px;
+}
+
+.item .pic {
+  widows: 100%;
+  height: 155px;
+  overflow: hidden;
+  background-color: #999;
+}
+
+.thumbnail h3,
+.thumbnail h4 {
+  font-style: normal;
+  text-shadow: 0.1em 0.1em 0.05em #fff;
+  color: #000;
+}
+
+.item .caption p:nth-child(1)::before {
+  content: "  ";
+  background: url(../images/icons_clock.png) no-repeat center;
+  padding: 0 10px 0 20px;
+}
+
+.item .caption p:nth-child(2)::before {
+  content: '';
+  background: url(../images/icons_pin.png) no-repeat center;
+  padding: 0 10px 0 20px;
+}
+
+.item .caption p:nth-child(3)::before {
+  content: '';
+  background: url(../images/icons_phone.png) no-repeat center;
+  padding: 0 10px 0 20px;
+}
+
+.item .caption p:nth-child(4) {
+  font-size: 1.1em;
+  float: right;
+  z-index: 2;
+  display: inline-block;
+  margin-right: 15px;
+  margin-top: -20px;
+}
+
+.item .caption p:nth-child(4)::before {
+  content: '';
+  background: url(../images/icons_tag.png) no-repeat center;
+  padding-left: 25px;
+}
+
+footer {
+  float: none;
+  background-color: #559AC8;
+  font-size: 1em;
+  border-radius: 10px 10px 0 0;
+  text-align: center;
+  padding: 17px 0px 7px;
+  line-height: 1em;
+}
+
+footer p {
+  color: #fff;
+  font-size: 1.4em;
+  letter-spacing: 0.1em;
+}
+
+footer p+p {
+  color: #FFD366;
+  font-size: 0.85em;
+}
