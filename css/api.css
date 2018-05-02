@@ -29,6 +29,10 @@
   background-color: rgba(255, 255, 255, 0.7);
 }
 
+.total .item {
+  box-sizing: border-box;
+}
+
 p .mybtn {
   display: inline-block;
   margin-bottom: 0;
@@ -231,7 +235,9 @@ footer p {
   letter-spacing: 0.1em;
 }
 
-footer p+p {
-  color: #FFD366;
-  font-size: 0.85em;
+@media (min-width:700px)and (max-width:1200px) {
+  .thumbnail {
+    min-width: 105%;
+    min-height: 300px;
+  }
 }
